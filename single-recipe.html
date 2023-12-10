@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Site</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./CSS/normalize.css" />
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- main css -->
+    <link rel="stylesheet" href="./CSS/main.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-center">
+            <!-- header -->
+            <div class="nav-header">
+                <a href="index.html" class="nav-logo">
+                    <img src="img/logo.svg" alt="simply recipes">
+                </a>
+                <button type="button" class=" btn nav-btn">
+                    <i class="fas fa-align-justify"></i>
+                </button>
+            </div>
+            <!-- links -->
+            <div class="nav-links show-link">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="tags.html" class="nav-link">Tags</a>
+                <a href="recipes.html" class="nav-link">Recipes</a>
+
+                <div class="nav-link contact-link">
+                    <a href="contact.html" class="btn">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- nav end -->
+    <!-- main -->
+    <main class="page">
+        <div class="recipe-page">
+            <section class="recipe-hero">
+                <img src="img/recipes/recipe-4.jpeg" alt="" class="img recipe-hero-img">
+                <article>
+                    <h2>Banana Panckakes</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta placeat cum illo culpa maxime
+                        odio, nisi, fugit nemo ipsum ea sapiente repellat exercitationem eveniet voluptate consequuntur?
+                        Dolorum labore modi a.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad tempore ea expedita ab at iusto
+                        aliquam consequatur. Laboriosam dolor doloremque reprehenderit veniam excepturi illum
+                        cupiditate, minus neque maxime atque delectus!</p>
+
+                    <!-- recipe icon -->
+
+                    <div class="recipe-icon">
+                        <!-- single recipe icon -->
+                        <article>
+                            <i class="fas fa-clock"></i>
+                            <h5>prep time</h5>
+                            <p>30 min.</p>
+                        </article>
+
+                        <!-- single recipe icon -->
+                        <article>
+                            <i class="far fa-clock"></i>
+                            <h5>Cook time</h5>
+                            <p>15 min.</p>
+                        </article>
+
+                        <!-- single recipe icon -->
+                        <article>
+                            <i class="fas fa-user-friends"></i>
+                            <h5>servings</h5>
+                            <p>6 servings.</p>
+                        </article>
+                    </div>
+                    <!-- recipe tags -->
+                    <div class="recipe-tags">
+                        Tags: <a href="tag-template.html">beef</a>
+                        <a href="tag-template.html">breakfast</a>
+                        <a href="tag-template.html">panckakes</a>
+                        <a href="tag-template.html">food</a>
+
+                    </div>
+                </article>
+            </section>
+            <!-- recipe content -->
+            <section class="recipe-content">
+                <article>
+                    <h4>Instruction</h4>
+                    <!-- single instruction -->
+                    <div class="single-instruction">
+                        <header>
+                            <p>step 1</p>
+                            <div></div>
+                        </header>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+
+                    <!-- single instruction -->
+                    <div class="single-instruction">
+                        <header>
+                            <p>step 2</p>
+                            <div></div>
+                        </header>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, repellat excepturi
+                            deserunt incidunt cupiditate eos porro assumenda, eligendi voluptatum optio natus id
+                            eius deleniti labore. Doloremque consequuntur maxime recusandae debitis?</p>
+                    </div>
+
+                    <!-- single instruction -->
+                    <div class="single-instruction">
+                        <header>
+                            <p>step 3</p>
+                            <div></div>
+                        </header>
+                        <p>Lorem ipsum dolor consectetur adipisicing elit.</p>
+
+                    </div>
+
+                </article>
+                <article class="second-column">
+                    <div>
+                        <h4>Ingredients</h4>
+                        <p class="single-ingredients">
+                            1 1/2 cups dry pancake mix
+                        </p>
+
+                        <p class="single-ingredients">
+                            1/2 cups flax seed meal
+                        </p>
+
+                        <p class="single-ingredients">
+                            1 cup skim milk
+                        </p>
+
+                    </div>
+                    <div class="abc">
+                        <h4>Tools</h4>
+                        <p class="single-tool ">Hand Blender</p>
+                        <p class="single-tool">Large Haeavy pot With Lid </p>
+                        <p class="single-tool">Meauring Spoons</p>
+                        <p class="single-tool">Meauring Cups</p>
+                    </div>
+                </article>
+            </section>
+        </div>  
+
+    </main>
+    <!-- end of main -->
+    <!-- footer -->
+    <footer class="page-footer">
+        <p> &copy; <span id="date"></span>
+            <span class="footer-logo">SimplyRecipes</span>
+            Build By <a href="https://stripe-menu-react-012.netlify.app/">Coding Addict</a>
+        </p>
+    </footer>
+    <!-- Script -->
+    <script src="JS/app.js"></script>
+
+</body>
+
+</html>

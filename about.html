@@ -1,0 +1,104 @@
+cc<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Web Site</title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+  <!-- normalize -->
+  <link rel="stylesheet" href="./CSS/normalize.css" />
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <!-- main css -->
+  <link rel="stylesheet" href="./CSS/main.css" />
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="nav-center">
+      <!-- header -->
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <img src="img/logo.svg" alt="simply recipes">
+        </a>
+        <button type="button" class=" btn nav-btn">
+          <i class="fas fa-align-justify"></i>
+        </button>
+      </div>
+      <!-- links -->
+      <div class="nav-links show-link">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="tags.html" class="nav-link">Tags</a>
+        <a href="recipes.html" class="nav-link">Recipes</a>
+
+        <div class="nav-link contact-link">
+          <a href="contact.html" class="btn">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- nav end -->
+  <!-- main -->
+  <main class="page">
+    <section class="about-page">
+      <article>
+        <h2>I'm baby coloring book poke taxidermy</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid pariatur odio similique dolores voluptatem?
+        </p>
+
+        <p>Taiyaki tumber flexitrain jeans shorts brunch, aesthemtic salvia retro.</p>
+
+        <a href="contact.html" class="btn ">Contact</a>
+      </article>
+      <img src="img/about.jpeg" alt="About Image" class="img about-img">
+    </section>
+    <section class="featured-recipes">
+      <h5 class="featured-title">Look At this Awesomesource!</h5>
+      <!-- recipes list -->
+      <div class="recipes-list">
+        <!-- single recipe -->
+        <a href="single-recipe.html" class="recipe">
+          <img src="img/recipes/recipe-1.jpeg" alt=" Food" class="img recipe-img">
+          <h5>Carne Asada</h5>
+          <p>Prep : 15min | Cook : 5min</p>
+        </a>
+        <!-- end of single recipe -->
+
+        <!-- single recipe -->
+        <a href="single-recipe.html" class="recipe">
+          <img src="img/recipes/recipe-2.jpeg" alt=" Food" class="img recipe-img">
+          <h5>Greek Ribs</h5>
+          <p>Prep : 15min | Cook : 5min</p>
+        </a>
+        <!-- end of single recipe -->
+
+        <!-- single recipe -->
+        <a href="single-recipe.html" class="recipe">
+          <img src="img/recipes/recipe-3.jpeg" alt=" Food" class="img recipe-img">
+          <h5>Vegetable Soup</h5>
+          <p>Prep : 15min | Cook : 5min</p>
+        </a>
+        <!-- end of single recipe -->
+        <!-- end of recipes list -->
+
+    </section>
+  </main>
+  <!-- end of main -->
+  <!-- footer -->
+  <footer class="page-footer">
+    <p> &copy; <span id="date"></span>
+      <span class="footer-logo">SimplyRecipes</span>
+      Build By <a href="https://stripe-menu-react-012.netlify.app/">Coding Addict</a>
+    </p>
+  </footer>
+  <!-- Script -->
+  <script src="JS/app.js"></script>
+
+
+</body>
+
+</html>
